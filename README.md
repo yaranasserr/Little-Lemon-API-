@@ -1,4 +1,28 @@
 # Little-Lemon-API-
+Shell commands
+ pipenv shell 
+
+pipenv install  
+
+python manage.py makemigrations  
+
+python manage.py migrate 
+
+python manage.py runserver  
+
+Use Insomnia for Tokens 
+
+ Links to check: 
+ Admin token
+ http://127.0.0.1:8000/api/groups/manager/users 
+ http://127.0.0.1:8000/api/menu-items
+ http://127.0.0.1:8000/api/categories
+ 
+ Manager token:
+ http://127.0.0.1:8000/api/groups/manager/users 
+ http://127.0.0.1:8000/api/menu-items/1 
+ 
+ 
 APIs make it possible for end-users to perform certain tasks
 
 1.	The admin can assign users to the manager group
